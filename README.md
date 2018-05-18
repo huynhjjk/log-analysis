@@ -18,7 +18,7 @@ You will need to download and extract the zip file to get newsdata.sql. Download
 ### Udacity's Full Stack Nanodegree VM Configuration Repository
 This Virtual Machine Configuration will be provided by Udacity. It will contain the directory **fullstack-nanodegree-vm** Download the VM Connfiguration [here](https://github.com/udacity/fullstack-nanodegree-vm).
 
-### How to use
+### How to Use
 1. Make sure that both **log.py** and **newsdata.sql** are inside the **fullstack-nanodegree-vm/vagrant** directory.
 2. Open the terminal and **cd** into the **fullstack-nanodegree-vm/vagrant** directory.<br>
 3. Enter the command **vagrant up** to run vagrant<br>
