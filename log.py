@@ -48,22 +48,17 @@ def get_query_results(query):
     return results
 
 
-def print_results(results):
+def print_results(results, text):
     """ Log the results on the terminal """
     for item in results:
-        value = float(item[1])
-        if (value.is_integer()):
-            value = "{:,}".format(int(item[1])) + ' views'
-        else:
-            value = str(value) + '%'
-        print(str(item[0]) + ' - ' + value)
+        print(str(item[0]) + ' - ' + str(item[1]) + ' ' + str(text))
 
 if __name__ == "__main__":
     print("THE TOP " + str(NUMBER_OF_ARTICLES) + " POPULAR ARTICLES:")
-    print_results(get_top_popular_articles(NUMBER_OF_ARTICLES))
+    print_results(get_top_popular_articles(NUMBER_OF_ARTICLES), 'views')
     print("\n")
     print("POPULAR AUTHORS:")
-    print_results(get_popular_authors())
+    print_results(get_popular_authors(), 'views')
     print("\n")
     print("DAYS THAT HAVE MORE THAN " + str(float(PERCENT_ERROR))+"% ERRORS:")
-    print_results(get_percent_error_dates(PERCENT_ERROR))
+    print_results(get_percent_error_dates(PERCENT_ERROR), '% errors')
