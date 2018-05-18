@@ -20,8 +20,7 @@ This Virtual Machine Configuration will be provided by Udacity. It will contain 
 
 ### How to use
 1. Make sure that both **log.py** and **newsdata.sql** are inside the **fullstack-nanodegree-vm/vagrant** directory.
-2. Open the terminal and **cd** into the **fullstack-nanodegree-vm/vagrant** directory.
-<br>
+2. Open the terminal and **cd** into the **fullstack-nanodegree-vm/vagrant** directory.<br>
 3. Enter the command **vagrant up** to run vagrant<br>
 4. Enter the command **vagrant ssh** to login into the VM<br>
 5. Enter the command **psql -d news -f newsdata.sql** to load the **newsdata.sql** onto the **news database**<br>
