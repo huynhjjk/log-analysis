@@ -43,7 +43,6 @@ def get_query_results(query):
     c = db.cursor()
     c.execute(query)
     results = c.fetchall()
-    db.commit()
     db.close()
     return results
 
