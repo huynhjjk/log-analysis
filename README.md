@@ -24,7 +24,7 @@ This Virtual Machine Configuration will be provided by Udacity. It will contain 
 3. Enter the command **vagrant up** to run vagrant<br>
 4. Enter the command **vagrant ssh** to login into the VM<br>
 5. Enter the command **psql -d news -f newsdata.sql** to load the **newsdata.sql** onto the **news database**<br>
-6. Enter the command **psql -d news** to connect to the **news** database.<br>
+6. Enter the command **psql -d news** to connect to the **news database**.<br>
 7. Enter the commands provided under **Create Views on PostgreSQL (PSQL) Command Line** to create the three views **articles_view**, **authors_view**, and **percent_errors_view**.<br>
 8. Enter the command **python log.py** to print out the answers for the following three questions:<br>
     1) What are the most popular three articles of all time?<br>
