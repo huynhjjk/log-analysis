@@ -15,8 +15,8 @@ Vagrant is required and used with VirtualBox to create a local development envir
 ### Udacity's News Data
 You will need to download and extract the zip file to get newsdata.sql. Download the data [here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip).
 
-### Udacity's Full Stack Nanodegree VM Configuration Repository
-This Virtual Machine Configuration will be provided by Udacity. It will contain the directory **fullstack-nanodegree-vm** Download the VM Connfiguration [here](https://github.com/udacity/fullstack-nanodegree-vm).
+### Udacity's Full Stack Nanodegree VM
+The Virtual Machine configuration will be provided by Udacity. It will contain the directory **fullstack-nanodegree-vm** Download the VM Connfiguration [here](https://github.com/udacity/fullstack-nanodegree-vm).
 
 ## How to Use
 1. Make sure that both **log.py** and **newsdata.sql** are inside the **fullstack-nanodegree-vm/vagrant** directory.
