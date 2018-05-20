@@ -46,7 +46,7 @@ ORDER BY views DESC;
 ```
 
 ### authors_view
-A view that contains author name and views
+A view that contains author names and views
 ```
 CREATE OR REPLACE VIEW authors_view AS
 SELECT name, sum(articles_view.views) AS views
@@ -57,7 +57,7 @@ ORDER BY views DESC;
 ```
 
 ### percent_errors_view
-A view that contains date and percent errors
+A view that contains dates and percent errors
 ```
 CREATE OR REPLACE VIEW percent_errors_view AS
 SELECT date(TIME) AS date,
